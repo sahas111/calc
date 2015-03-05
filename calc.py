@@ -31,8 +31,7 @@ if __name__ == '__main__':
         print(min(nums))
     elif command == 'max':
         print(max(nums))
-    elif command == 'int':
-        print(int(nums))    
+       
     else:
         usage = "calc.py [add|multiply|min][max] NUM1 [NUM2 [NUM3 [...]]]"
         print(usage)
